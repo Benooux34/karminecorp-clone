@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
 
       {/* VIDÉO */}
-      <div className="absolute z-1 top-[100px] lg:top-[-100px]">
+      <div className="absolute z-1 top-0 lg:top-[-100px]">
         <video autoPlay={true} loop={true} muted={true}>
           <source src="KARMINE_PAD.mp4" />
         </video>
