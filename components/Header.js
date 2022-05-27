@@ -15,10 +15,10 @@ function Header() {
     const [menuBurger, setMenuBurger] = useState(false)    
 
   return (
-    <div className="fixed z-20 bg-[#102337] h-[110px] border border-[#102337] border-b-[#00D8EC] border-4 w-full flex justify-between items-center transition ease-in-out duration-1000">
+    <div className="fixed z-20 bg-[#102337] h-[80px] lg:h-[110px] border border-[#102337] border-b-[#00D8EC] border-4 w-full flex justify-between items-center transition ease-in-out duration-1000">
         {/* Logo */}
         <div className="cursor-pointer">
-            <img className="pl-[60px] lg:pl-[110px] h-[60px]" src="https://dtlaca8pgqtx.cloudfront.net/logo.png" alt="" />
+            <img className="pl-[60px] lg:pl-[110px] h-[40px] lg:h-[60px]" src="https://dtlaca8pgqtx.cloudfront.net/logo.png" alt="" />
         </div>
         {/* Liens */}
         <div className="hidden lg:flex md:justify-center lg:items-center lg:cursor-pointer">
