@@ -7,7 +7,7 @@ function News() {
         <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold">LATEST NEWS</h2>
       </div>
 
-      <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[30px] place-items-center justify-self-center mx-5 lg:mx-40">
+      <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[30px] place-items-center justify-self-center mx-10 lg:mx-40">
         <div className="relative w-[350px] h-[350px] cursor-pointer">
           <img className="opacity-60" src="img1.jpg" alt="" />
           <span className="absolute w-[70%] left-[10px] pl-2 bottom-3 border border-transparent border-l-[#00D8EC] border-4 text-white text-xl font-bold opacity-0 hover:opacity-100">LA KARMINE CORP REMPORTE LES AMAZON EUROPEAN MASTERS ET RÉALISE LE THREE-PEAT</span>
