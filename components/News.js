@@ -3,7 +3,7 @@ import React from 'react'
 function News() {
   return (
     <div className="absolute w-full">
-      <div className="mt-[80px] border border-[#102337] border-l-[#00D8EC] border-4 flex justify-center items-center">
+      <div className="mt-[160px] lg:mt-[60px] border border-[#102337] border-l-[#00D8EC] border-4 flex justify-center items-center">
         <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold">LATEST NEWS</h2>
       </div>
 
