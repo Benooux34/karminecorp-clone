@@ -20,9 +20,8 @@ export default function Home() {
           <source src="KARMINE_PAD.mp4" />
         </video>
         <Slider />
+        <News />
       </div>
-
-      <News />
 
     </div>
   )
