@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import News from '../components/News'
 import Slider from '../components/Slider'
+import Teams from '../components/Teams'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </video>
         <Slider />
         <News />
+        <Teams />
       </div>
 
     </div>

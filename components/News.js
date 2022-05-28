@@ -33,6 +33,10 @@ function News() {
           <span className="absolute w-[70%] left-[10px] pl-2 bottom-3 border border-transparent border-l-[#00D8EC] border-4 text-white text-xl font-bold opacity-0 hover:opacity-100">Un nouveau partenaire : NZXT</span>
         </div>
       </div>
+
+      <div className="text-center mt-[80px]">
+        <button className="border border-[#00D8EC] text-[22px] h-[60px] w-[300px] text-[#00D8EC] hover:text-white">Read more article</button>
+      </div>
       
     </div>
   )
