@@ -13,20 +13,21 @@ function Slider() {
         loop={true}
         autoplay={{
           delay: 3000,
+          disableOnInteraction: false,
         }}
         modules={[Autoplay]}
         className="flex justify-center items-center h-full w-full lg:w-[70%]"
       >
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor1.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor2.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor3.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor4.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor5.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor6.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor7.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor8.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-full opacity-50 hover:opacity-100" src="slider/sponsor9.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className="h-[50%] mt-5 opacity-50 hover:opacity-100" src="slider/sponsor10.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor1.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor2.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor5.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor6.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor7.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor8.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[60%] mt-4 lg:h-full lg:mt-0 opacity-50 hover:opacity-100" src="slider/sponsor9.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="h-[30%] lg:h-[50%] mt-6 lg:mt-5 opacity-50 hover:opacity-100" src="slider/sponsor10.png" alt="" /></SwiperSlide>
       </Swiper>  
     </div>
   )
