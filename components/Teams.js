@@ -7,21 +7,21 @@ function Teams() {
         <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold">TEAMS</h2>
       </div>
 
-      <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center justify-self-center mx-10 lg:mx-40">
+      <div className="mt-[60px] mb-[80px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center justify-self-center mx-10 lg:mx-40">
         <div className="relative w-[250px] lg:w-[300px] h-[300px] lg:h-[300px] cursor-pointer">
-          <img className="opacity-60" src="teams1.png" alt="" />
+          <img className="" src="teams1.png" alt="" />
         </div>
         <div className="relative w-[250px] lg:w-[300px] h-[300px] lg:h-[300px] cursor-pointer">
-          <img className="opacity-60" src="teams2.jpg" alt="" />
+          <img className="" src="teams2.jpg" alt="" />
         </div>
         <div className="relative w-[250px] lg:w-[300px] h-[300px] lg:h-[300px] cursor-pointer">
-          <img className="opacity-60" src="teams3.jpg" alt="" />
+          <img className="" src="teams3.jpg" alt="" />
         </div>
         <div className="relative w-[250px] lg:w-[300px] h-[300px] lg:h-[300px] cursor-pointer">
-          <img className="opacity-60" src="teams4.jpg" alt="" />
+          <img className="" src="teams4.jpg" alt="" />
         </div>
         <div className="relative w-[250px] lg:w-[300px] h-[300px] lg:h-[300px] cursor-pointer">
-          <img className="opacity-60" src="teams5.jpg" alt="" />
+          <img className="" src="teams5.jpg" alt="" />
         </div>
       </div>    
     </div>
